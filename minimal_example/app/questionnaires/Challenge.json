@@ -1,0 +1,63 @@
+{
+   "title":"Challenge Orientation",
+   "instructions":"A number of statements which people have used to describe the previous task are given below. Read each statement and indicate your agreement with that statement. There are no right or wrong answers. Do not spend too much time on any one statement. Remember, give the answer which seems to describe how you thought during the game.",
+   "code":"",
+   "questions":[
+      {
+         "questiontype":"radiogrid",
+         "id":"challenge",
+         "shuffle": "true",
+         "labels":[
+            "Strongly disagree",
+            "Disagree",
+            "Slightly disagree",
+            "Neutral",
+            "Slightly agree",
+            "Agree",
+            "Strongly agree"
+         ],
+         "q_text":[
+            {
+               "id":"q_1",
+               "text":"I enjoy highly difficult challenges in games."
+            },
+            {
+               "id":"q_2",
+               "text":"I usually play games at the highest difficulty setting."
+            },
+            {
+               "id":"q_3",
+               "text":"I like it when games challenge me."
+            },
+            {
+               "id":"q_4",
+               "text":"I like it when games get my heart beating fast."
+            },
+            {
+               "id":"q_5",
+               "text":"I like it when keeping my character alive is difficult."
+            },
+            {
+               "id":"q_6",
+               "text":"I usually avoid playing games at the highest difficulty setting."
+            },
+            {
+               "id":"q_7",
+               "text":"I like it when progression in a game demands skill."
+            },
+            {
+               "id":"q_8",
+               "text":" I like easy games."
+            },
+            {
+               "id":"q_9",
+               "text":"I like it when goals are hard to achieve in games."
+            },
+            {
+               "id":"q_10",
+               "text":"I like games that let me move at high speed."          
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,179 @@
+{% extends "template.html" %}
+{% block head %}
+    <style>
+        .content {
+            width: 1091px !important;
+        }
+        </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            function showDominance() {
+                var tableValence = $("#tableValence");
+                tableValence.hide();
+
+                var instrValence = $("#instrValence")
+                instrValence.hide();
+
+                var tableDominance = $("#tableDominance");
+                tableDominance.fadeIn(500);
+
+                var instrDominance = $("#instrDominance")
+                instrDominance.fadeIn(500);
+            }
+
+            function showValence() {
+                var tableArousal = $("#tableArousal");
+                tableArousal.hide();
+
+                var instrArousal = $("#instrArousal");
+                instrArousal.hide();
+
+                var tableValence = $("#tableValence");
+                tableValence.fadeIn(500);
+
+                var instrValence = $("#instrValence")
+                instrValence.fadeIn(500);
+            }
+
+            function finish() {
+                //document.getElementById('form').submit();
+                $.post( "/sam/log_sam2", {
+                    "message": "logSAM2",
+                    "pid": String({{ session['participantID'] }}),
+                    "valence": $("#valence").val(),
+                    "arousal": $("#arousal").val(),
+                    "dominance": $("#dominance").val(),
+                });
+                window.location.href = "/redirect_next_page";
+            }
+
+            var arousal = $("#arousal");
+            var valence = $("#valence");
+            var dominance = $("#dominance");
+
+            var A1 = $("#A1");
+            var A2 = $("#A2");
+            var A3 = $("#A3");
+            var A4 = $("#A4");
+            var A5 = $("#A5");
+            var A6 = $("#A6");
+            var A7 = $("#A7");
+
+            var V1 = $("#V1");
+            var V2 = $("#V2");
+            var V3 = $("#V3");
+            var V4 = $("#V4");
+            var V5 = $("#V5");
+            var V6 = $("#V6");
+            var V7 = $("#V7");
+
+            var D1 = $("#D1");
+            var D2 = $("#D2");
+            var D3 = $("#D3");
+            var D4 = $("#D4");
+            var D5 = $("#D5");
+            var D6 = $("#D6");
+            var D7 = $("#D7");
+
+            A1.on('click', function() { arousal.val(1); showValence(); });
+            A2.on('click', function() { arousal.val(2); showValence(); });
+            A3.on('click', function() { arousal.val(3); showValence(); });
+            A4.on('click', function() { arousal.val(4); showValence(); });
+            A5.on('click', function() { arousal.val(5); showValence(); });
+            A6.on('click', function() { arousal.val(6); showValence(); });
+            A7.on('click', function() { arousal.val(7); showValence(); });
+
+            V1.on('click', function() { valence.val(1); showDominance(); });
+            V2.on('click', function() { valence.val(2); showDominance(); });
+            V3.on('click', function() { valence.val(3); showDominance(); });
+            V4.on('click', function() { valence.val(4); showDominance(); });
+            V5.on('click', function() { valence.val(5); showDominance(); });
+            V6.on('click', function() { valence.val(6); showDominance(); });
+            V7.on('click', function() { valence.val(7); showDominance(); });
+
+            D1.on('click', function() { dominance.val(1); finish(); });
+            D2.on('click', function() { dominance.val(2); finish(); });
+            D3.on('click', function() { dominance.val(3); finish(); });
+            D4.on('click', function() { dominance.val(4); finish(); });
+            D5.on('click', function() { dominance.val(5); finish(); });
+            D6.on('click', function() { dominance.val(6); finish(); });
+            D7.on('click', function() { dominance.val(7); finish(); });
+        });
+    </script>
+    <style>
+        .sam_option { border: 1px solid #F7F7F7; }
+        .sam_option:hover { border: 1px solid black; }
+    </style>
+{% endblock %}
+
+{% block content %}
+
+    <form id="form" action="" method="post">
+
+        <input type="hidden" name="arousal" id="arousal">
+        <input type="hidden" name="valence" id="valence">
+        <input type="hidden" name="dominance" id="dominance">
+
+        <div class="question">
+            <div class="padding" id="instrArousal">
+                <h3>Instructions</h3>
+                <p>Below you will see three series of images. Please choose the images that reflect how you are currently feeling.</p>
+                <p>The first scale rates the intensity of your current emotional state. At the low end of the intensity scale are feelings like relaxed, calm, sluggish, dull, sleepy, and unaroused. At the high end of the scale are feelings like stimulated, excited, frenzied, jittery, wide awake, and aroused. Click the icon that represents the intensity of your emotional state.</p>
+            </div>
+            <div class="padding" id="instrValence" style="display:none;">
+                <h3>Instructions</h3>
+                <p>Below you will see three series of images. Please choose the images that reflect how you are currently feeling.</p>
+                <p>The second scale rates the valence of your current emotional state. At the low end of the valence scale are feelings like unhappy, annoyed, unsatisfied, melancholic, despairing, and bored. At the high end are feelings like happy, pleased, satisfied, contented, hopeful, and relaxed. Click the icon that represents the valence of your emotional state.</p>
+            </div>
+            <div class="padding" id="instrDominance" style="display:none;">
+                <h3>Instructions</h3>
+                <p>Below you will see three series of images. Please choose the images that reflect how you are currently feeling.</p>
+                <p>The third scale rates the dimension of controlled vs in-control. At the low end of the dominance scale are feelings like completely controlled, influened, cared-for, submissive, guided. At the high end are feelings like completely controlling, influential, in control, important, dominant. Click the icon that represents how you felt while playing.</p>
+            </div>
+        </div>
+
+        <div class="question padding" style="padding: 10px; text-align: center;">
+            <table id="tableArousal" style="margin-left: auto; margin-right: auto;">
+                <tr>
+                    <td><img class="sam_option" id="A1" src="{{ url_for('sam.static', filename='sam/A1.png') }}"></td>
+                    <td><img class="sam_option" id="A2" src="{{ url_for('sam.static', filename='sam/A2.png') }}"></td>
+                    <td><img class="sam_option" id="A3" src="{{ url_for('sam.static', filename='sam/A3.png') }}"></td>
+                    <td><img class="sam_option" id="A4" src="{{ url_for('sam.static', filename='sam/A4.png') }}"></td>
+                    <td><img class="sam_option" id="A5" src="{{ url_for('sam.static', filename='sam/A5.png') }}"></td>
+                    <td><img class="sam_option" id="A6" src="{{ url_for('sam.static', filename='sam/A6.png') }}"></td>
+                    <td><img class="sam_option" id="A7" src="{{ url_for('sam.static', filename='sam/A7.png') }}"></td>
+                </tr>
+            </table>
+
+            <table id="tableValence" style="display:none; margin-left: auto; margin-right: auto;">
+                <tr>
+                    <td><img class="sam_option" id="V1" src="{{ url_for('sam.static', filename='sam/vp1.png') }}"></td>
+                    <td><img class="sam_option" id="V2" src="{{ url_for('sam.static', filename='sam/vp2.png') }}"></td>
+                    <td><img class="sam_option" id="V3" src="{{ url_for('sam.static', filename='sam/vp3.png') }}"></td>
+                    <td><img class="sam_option" id="V4" src="{{ url_for('sam.static', filename='sam/vp4.png') }}"></td>
+                    <td><img class="sam_option" id="V5" src="{{ url_for('sam.static', filename='sam/vp5.png') }}"></td>
+                    <td><img class="sam_option" id="V6" src="{{ url_for('sam.static', filename='sam/vp6.png') }}"></td>
+                    <td><img class="sam_option" id="V7" src="{{ url_for('sam.static', filename='sam/vp7.png') }}"></td>
+                </tr>
+            </table>
+
+            <table id="tableDominance" style="display:none; margin-left: auto; margin-right: auto;">
+                <tr>
+                    <td><img class="sam_option" id="D1" src="{{ url_for('sam.static', filename='sam/D1.png') }}"></td>
+                    <td><img class="sam_option" id="D2" src="{{ url_for('sam.static', filename='sam/D2.png') }}"></td>
+                    <td><img class="sam_option" id="D3" src="{{ url_for('sam.static', filename='sam/D3.png') }}"></td>
+                    <td><img class="sam_option" id="D4" src="{{ url_for('sam.static', filename='sam/D4.png') }}"></td>
+                    <td><img class="sam_option" id="D5" src="{{ url_for('sam.static', filename='sam/D5.png') }}"></td>
+                    <td><img class="sam_option" id="D6" src="{{ url_for('sam.static', filename='sam/D6.png') }}"></td>
+                    <td><img class="sam_option" id="D7" src="{{ url_for('sam.static', filename='sam/D7.png') }}"></td>
+                </tr>
+            </table>
+            <div style="clear: both"></div>
+        </div>
+
+    </form>
+
+    <p></p>
+
+{% endblock %}

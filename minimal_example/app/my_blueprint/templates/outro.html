@@ -1,0 +1,52 @@
+{% extends "template.html" %}
+{% block head  %}
+
+<style>
+    imgFrame {height: 0%;
+                width: 0%;}
+    </style>
+
+div {
+      text-align: center;
+    }
+
+{% endblock %}
+
+{% block content %}
+
+
+
+    <form id="form" action="{{ url_for('default.submit') }}" method="post">
+        <div class="question">
+            <div class="padding">
+                <center><h3>Thank you very much for your participation. Your help is much appreciated.</h3>
+
+                <img  id="Pos_02"  img align = "middle" src="{{ url_for('my_blueprint.static', filename='PositiveImage_02.jpg') }}"></center>
+
+                    
+                    <p>Please keep the details of this experiment to yourself and do not share information about how was the game or the stressor task with other people, since they may take part in the research as well.</p>
+                    <p> You were exposed to a challenging task with the intent of inducing a temporary stressed state. Positive imagery may help you to help you recover from the experience. Here is a link to a Google image search for baby animals that should help alleviate negative emotions: <a href="https://www.google.com/search?biw=1536&bih=750&tbm=isch&sa=1&ei=sXCEW9iOOZe_0PEPyryJsAY&q=baby+animals&oq=baby+animals" target="_blank">Baby Animals</a> .</p>
+                    <p> The goal of this research is to evaluate the effects of video games to de-stress. Your participation will help further our research goal of improving the design and efficacy of technology for well-being. </p>
+                    <p> If you feel like you need to talk to someone about your life and well-being, check out the  <a href="https://www.crisistextline.org" target="_blank">Crisis Text Line</a></p>
+
+                    <center><p style="margin-top: 50px"><b>Thanks again for your participation.</b></p>
+
+                    <p><img  id="Pos_05"  img align = "center" src="{{ url_for('my_blueprint.static', filename='PositiveImage_05.jpg') }}">                    
+                    <img  id="Pos_04"  img align = "middle" src="{{ url_for('my_blueprint.static', filename='PositiveImage_04.jpg') }}">
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="navigation padding">
+            <div style="float: right">
+                <input id="btnNext" type="submit" value="Next">
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    </form>
+
+{% endblock %}

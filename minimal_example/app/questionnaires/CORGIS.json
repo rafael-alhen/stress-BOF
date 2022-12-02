@@ -1,0 +1,88 @@
+{
+   "title":"CORGIS",
+   "instructions":"A number of statements which people have used to describe the previous task are given below. Read each statement and indicate your agreement with that statement. There are no right or wrong answers. Do not spend too much time on any one statement. Remember, give the answer which seems to describe how you thought during the game.",
+   "code":"",
+   "questions":[
+      {
+         "questiontype":"radiogrid",
+         "id":"IMI",
+         "shuffle": "true",
+         "labels":[
+            "Strongly disagree",
+            "Disagree",
+            "Slightly disagree",
+            "Neutral",
+            "Slightly agree",
+            "Agree",
+            "Strongly agree"
+         ],
+         "q_text":[
+            {
+               "id":"CC1",
+               "text":"Succeeding in the game required much planning"
+            },
+            {
+               "id":"CC2",
+               "text":"I had to memorise a lot of different things when playing the game"
+            },
+            {
+               "id":"CC3",
+               "text":"I had to think several steps ahead when playing the game"
+            },
+            {
+               "id":"CC4",
+               "text":"I had to prepare for the things that the game threw at me"
+            },
+            {
+               "id":"CC5",
+               "text":"Playing the game requires great effort"
+            },
+            {
+               "id":"CC6",
+               "text":"I felt challenged when playing the game"
+            },
+            {
+               "id":"CC7",
+               "text":"I had lots of different things to think about at once in the game"
+            },
+            {
+               "id":"CC8",
+               "text":"The game made me manage several tasks at the same time"
+            },
+            {
+               "id":"CC9",
+               "text":"I had to constantly keep track of what was going on in the game"
+            },
+            {
+               "id":"CC10",
+               "text":"I had to think actively when playing the game"
+            },
+            {
+               "id":"CC11",
+               "text":"Playing the game required me to do my best"
+            },
+            
+            {
+               "id":"PC1",
+               "text":"I had to react quickly when playing the game"
+            },
+            {
+               "id":"PC2",
+               "text":"I had to act quickly when playing the game"
+            },
+            {
+               "id":"PC3",
+               "text":"Thinking fast was an important part of the game"
+            },
+            {
+               "id":"PC4",
+               "text":"Quickly responding to things that I saw was an important part of the game"
+            },
+            {
+               "id":"PC5",
+               "text":"I had to make snap decisions when playing the game"
+            }            
+         ]
+      }
+   ]
+}

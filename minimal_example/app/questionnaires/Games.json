@@ -1,0 +1,155 @@
+{
+    "title":"Games",
+    "instructions":"Please answer the following questions.",
+    "code":"",
+    "questions":[
+        {
+        "questiontype":"drop_down",
+        "instructions":"Please indicate how often (on average) you play games:",
+        "id":"gamer_rate",
+        "items":[
+            "Every day",
+            "A few times per week",
+            "A few times per month",
+            "A few times per year",
+            "Never"
+            ]
+        },
+        {
+            "questiontype": "drop_down",
+            "instructions": "If you played games more or less in the past, please indicate how often you used to play:",
+            "id": "former_gamer_rate",
+            "items": [
+                "Every day",
+                "A few times per week",
+                "A few times per month",
+                "A few times per year",
+                "Never"
+            ]
+        },
+        {
+            "questiontype": "slider",
+            "instructions": "How much do you self-identify as a gamer on the following scale:",
+            "id": "gamer_identity",
+            "left": "not at all",
+            "right": "gamer",
+            "tick_count": 10
+        },
+        {
+            "questiontype":"radiolist",
+            "instructions":"Which is your dominant hand?",
+            "id":"handedness",
+            "shuffle":false,
+            "labels": [
+                "Left",
+                "Right"
+            ]
+        },
+        {
+            "questiontype":"checklist",
+            "instructions":"Please indicate the genres that you enjoy playing:",
+            "id":"genre",
+            "shuffle":false,
+            "questions": [
+                {
+                    "id":"action",
+                    "text":"Action"
+                },
+                {
+                    "id":"platform",
+                    "text":"Platform games"
+                },
+                {
+                    "id":"fps",
+                    "text":"First Person Shooter"
+                },
+                {
+                    "id":"beu",
+                    "text":"Beat 'em up"
+                },
+                {
+                    "id":"adventure",
+                    "text":"Adventure"
+                },
+                {
+                    "id":"rpg",
+                    "text":"Role Playing Games"
+                },
+                {
+                    "id":"mmorpg",
+                    "text":"Mass Multiplayer Role Playing Games (MMORPG)"
+                },
+                {
+                    "id":"sim",
+                    "text":"Simulation"
+                },
+                {
+                    "id":"vsim",
+                    "text":"Vehicle simulation"
+                },
+                {
+                    "id":"strategy",
+                    "text":"Strategy"
+                },
+                {
+                    "id":"music",
+                    "text":"Music games"
+                },
+                {
+                    "id":"puzzle",
+                    "text":"Puzzle games"
+                },
+                {
+                    "id":"sport",
+                    "text":"Sport games"
+                },
+                {
+                    "id":"moba",
+                    "text":"Multiplayer Online Battle Arena (MOBA)"
+                },
+                {
+                    "id":"casual",
+                    "text":"Casual games"
+                },
+                {
+                    "id":"battleRoyale",
+                    "text":"Battle Royale"
+                }]
+        },
+        {
+            "questiontype":"checklist",
+            "instructions":"Please indicate on which devices you play:",
+            "id":"system",
+            "shuffle":false,
+            "questions": [
+                {
+                    "id":"desktop",
+                    "text":"Desktop (e.g. Windows, Linux, OS X, etc.)"
+                },
+                {
+                    "id":"console",
+                    "text":"Console (e.g. XBox, PlayStation, Wii, etc.)"
+                },
+                {
+                    "id":"handheld",
+                    "text":"Portable consoles (e.g. PSP, GameBoy, DS, etc.)"
+                },
+                {
+                    "id":"mobile",
+                    "text":"Mobile devices (e.g. phone, tablet, etc.)"
+                },
+                {
+                    "id":"sys-none",
+                    "text":"Different device(s)"
+                }
+            ]
+        },
+        {
+            "questiontype": "multi_field",
+            "instructions": "(Optional) If there are other types of devices you play on, please list them.",
+            "id":"system_other",
+            "required": false,
+            "height": 60
+        }
+    ]
+}

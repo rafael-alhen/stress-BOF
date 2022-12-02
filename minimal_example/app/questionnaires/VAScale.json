@@ -1,0 +1,87 @@
+{
+   "title":"VAS",
+   "instructions":"For the following questions, please move the slider to the point on the line that best fits your personal assessment. This is about how you experience right now at this moment. The rating 0 means that the statement does not apply to you at all and the rating 100 that the statement is completely correct. Of course, you can also choose between 0 and 100, depending on how you feel right now.",
+   "code":"",
+   "questions":[
+     {
+          "questiontype":"slider",
+          "instructions":"How are you currently feeling?",
+          "id":"slider_1",
+          "datatype":"integer",
+          "left":"Bad",
+          "right":"Good",
+          "tick_count":"100",
+	  "width": 750
+      },
+       {
+          "questiontype":"slider",
+          "instructions":"How afraid do you feel at the moment?",
+          "id":"slider_2",
+          "datatype":"integer",
+          "left":"Not afraid",
+          "right":"Very afraid",
+          "tick_count":"100",
+	  "width": 750
+      },
+       {
+          "questiontype":"slider",
+          "instructions":"How would you estimate your current physical unease?",
+          "id":"slider_3",
+          "datatype":"integer",
+          "left":"Not uneasy",
+          "right":"Very uneasy",
+          "tick_count":"100",
+	  "width": 750
+      },
+      {
+          "questiontype":"slider",
+          "instructions":"How strong is your need to leave this situation?",
+          "id":"slider_4",
+          "datatype":"integer",
+          "left":"Not at all",
+          "right":"Very strong",
+          "tick_count":"100",
+	  "width": 750
+      },
+      {
+          "questiontype":"slider",
+          "instructions":"How tense are you at this moment?",
+          "id":"slider_5",
+          "datatype":"integer",
+          "left":"Not at all",
+          "right":"Very tense",
+          "tick_count":"100",
+	  "width": 750
+      },
+      {
+          "questiontype":"slider",
+          "instructions":"How much are you in control of the situation?",
+          "id":"slider_6",
+          "datatype":"integer",
+          "left":"Not at all",
+          "right":"Very much",
+          "tick_count":"100",
+	  "width": 750
+      },
+      {
+          "questiontype":"slider",
+          "instructions":"How much do you feel stressed out?",
+          "id":"slider_7",
+          "datatype":"integer",
+          "left":"Not at all",
+          "right":"Very much",
+          "tick_count":"100",
+	  "width": 750
+      },
+      {
+          "questiontype":"slider",
+          "instructions":"How strong is your desire to have a familiar person by your side?",
+          "id":"slider_8",
+          "datatype":"integer",
+          "left":"No desire",
+          "right":"Very strong desire",
+          "tick_count":"100",
+	  "width": 750
+      }
+  ]
+}

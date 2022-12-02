@@ -1,0 +1,13 @@
+{
+   "title":"Please wait",
+   "instructions":"",
+   "code":"",
+   "questions":[
+      {
+            "questiontype":"textview",
+            "title":"Waiting Room",
+            "text":"Please wait on this page until further instructions. The experiment will continue soon"
+        }
+
+   ]
+}
