@@ -117,7 +117,8 @@
                 "$150,000 or more",
                 "I prefer not to answer"
             ]
-        },          
+        },
+
 
         {  
             "questiontype":"drop_down",
@@ -136,14 +137,6 @@
                 "Two or more categories",
                 "I prefer not to answer"
             ]
-        },
-        {
-        "questiontype": "slider",
-        "instructions": "How much do you self-identify as a gamer on the following scale:",
-        "id": "gamer_identity",
-        "left": "not at all",
-        "right": "gamer",
-        "tick_count": 10
         }
     ]
 }
