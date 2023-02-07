@@ -18,43 +18,43 @@
          ],
          "q_text":[
             {
-               "id":"q_1",
+               "id":"challenge_1",
                "text":"I enjoy highly difficult challenges in games."
             },
             {
-               "id":"q_2",
+               "id":"challenge_2",
                "text":"I usually play games at the highest difficulty setting."
             },
             {
-               "id":"q_3",
+               "id":"challenge_3",
                "text":"I like it when games challenge me."
             },
             {
-               "id":"q_4",
+               "id":"challenge_4",
                "text":"I like it when games get my heart beating fast."
             },
             {
-               "id":"q_5",
+               "id":"challenge_5",
                "text":"I like it when keeping my character alive is difficult."
             },
             {
-               "id":"q_6",
+               "id":"challenge_6",
                "text":"I usually avoid playing games at the highest difficulty setting."
             },
             {
-               "id":"q_7",
+               "id":"challenge_7",
                "text":"I like it when progression in a game demands skill."
             },
             {
-               "id":"q_8",
+               "id":"challenge_8",
                "text":" I like easy games."
             },
             {
-               "id":"q_9",
+               "id":"challenge_9",
                "text":"I like it when goals are hard to achieve in games."
             },
             {
-               "id":"q_10",
+               "id":"challenge_10",
                "text":"I like games that let me move at high speed."          
             }
          ]

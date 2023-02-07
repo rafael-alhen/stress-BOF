@@ -117,8 +117,7 @@
                 "$150,000 or more",
                 "I prefer not to answer"
             ]
-        },
-
+        },          
 
         {  
             "questiontype":"drop_down",

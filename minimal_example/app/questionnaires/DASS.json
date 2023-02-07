@@ -15,87 +15,87 @@
          ],
          "q_text":[
             {
-               "id":"q_1",
+               "id":"DASS-depression_1",
                "text":"I felt down-hearted and blue"
             },
             {
-               "id":"q_2",
+               "id":"DASS-depression_2",
                "text":"I felt that I had nothing to look forward to"
             },
             {
-               "id":"q_3",
+               "id":"DASS-depression_3",
                "text":"I found it difficult to work up the initiative to do things"
             },
             {
-               "id":"q_4",
+               "id":"DASS-depression_4",
                "text":"I was unable to become enthusiastic about anything"
             },
             {
-               "id":"q_5",
+               "id":"DASS-depression_5",
                "text":"I felt I wasn't worth much as a person"
             },
             {
-               "id":"q_6",
+               "id":"DASS-depression_6",
                "text":"I couldn't seem to experience any positive feeling at all"
             },            
 	    {
-               "id":"q_7",
+               "id":"DASS-depression_7",
                "text":"I felt that life was meaningless"
             },     
             {
-               "id":"q_8",
+               "id":"DASS-anxiety_1",
                "text":"I was aware of dryness of my mouth"
             },
             {
-               "id":"q_9",
+               "id":"DASS-anxiety_2",
                "text":"I experienced trembling (e.g. in the hands)"
             },
             {
-               "id":"q_10",
+               "id":"DASS-anxiety_3",
                "text":"I was worried about situations in which I might panic and make a fool of myself"
             },
             {
-               "id":"q_11",
+               "id":"DASS-anxiety_4",
                "text":"I experienced breathing difficulty (e.g. excessively rapid breathing, breathlessness in the absence of physical exertion)"
             },
             {
-               "id":"q_12",
+               "id":"DASS-anxiety_5",
                "text":"I felt I was close to panic"
             },
 	    {
-               "id":"q_13",
+               "id":"DASS-anxiety_6",
                "text":"I was aware of the action of my heart in the absence of physical exertion (e.g. sense of heart rate increase, heart missing a beat)"
             },
             {
-               "id":"q_14",
+               "id":"DASS-anxiety_7",
                "text":"I felt scared without any good reason"
             },
             {
-               "id":"q_15",
+               "id":"DASS-stress_1",
                "text":"I found it hard to wind down"
             },
             {
-               "id":"q_16",
+               "id":"DASS-stress_2",
                "text":"I tended to over-react to situations"
             },
             {
-               "id":"q_17",
+               "id":"DASS-stress_3",
                "text":"I felt that I was using a lot of nervous energy"
             },
             {
-               "id":"q_18",
+               "id":"DASS-stress_4",
                "text":"I felt that I was rather touchy"
             },
             {
-               "id":"q_19",
+               "id":"DASS-stress_5",
                "text":"I found myself getting agitated"
             },
             {
-               "id":"q_20",
+               "id":"DASS-stress_6",
                "text":"I found it difficult to relax"
             },
             {
-               "id":"q_21",
+               "id":"DASS-stress_7",
                "text":"I was intolerant of anything that kept me from getting on with what I was doing"
             }
          ]

@@ -1,0 +1,45 @@
+{
+    "title":"Interview",
+    "instructions":"Please answer those final questions. They are related about your experience during this research",
+    "code":"",
+    "questions":[
+        {
+            "questiontype":"slider",
+            "instructions":"Did you feel stressed when doing the math task?",
+            "id":"stress_level1",
+            "left":"Not stressed",
+            "right":"Higly stressed",
+            "tick_count":7,
+            "width":490
+        },
+        {
+            "questiontype":"slider",
+            "instructions":"Did you feel stressed when playing the game?",
+            "id":"stress_level2",
+            "left":"Not stressed",
+            "right":"Higly stressed",
+            "tick_count":7,
+            "width":490
+        },
+	{
+            "questiontype":"multi_field",
+            "instructions":"In your daily life, do you play video games when you are stressed?",
+            "id":"feedback_1",
+            "height":"100"
+        },
+	{
+            "questiontype":"multi_field",
+            "instructions":"Do you believe that videogames can be used to recover from stress? Why?",
+            "placeholder":"",
+            "id":"feedback_2",
+            "height":"100"
+        },
+        {
+            "questiontype":"multi_field",
+            "instructions":"Do you have any feedback about the experience or the research?",
+            "placeholder":"",
+            "id":"feedback_3",
+            "height":"100"
+        }
+    ]
+}

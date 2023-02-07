@@ -6,7 +6,7 @@
      {
           "questiontype":"slider",
           "instructions":"How are you currently feeling?",
-          "id":"slider_1",
+          "id":"vas-slider_1",
           "datatype":"integer",
           "left":"Bad",
           "right":"Good",
@@ -16,7 +16,7 @@
        {
           "questiontype":"slider",
           "instructions":"How afraid do you feel at the moment?",
-          "id":"slider_2",
+          "id":"vas-slider_2",
           "datatype":"integer",
           "left":"Not afraid",
           "right":"Very afraid",
@@ -26,7 +26,7 @@
        {
           "questiontype":"slider",
           "instructions":"How would you estimate your current physical unease?",
-          "id":"slider_3",
+          "id":"vas-slider_3",
           "datatype":"integer",
           "left":"Not uneasy",
           "right":"Very uneasy",
@@ -36,7 +36,7 @@
       {
           "questiontype":"slider",
           "instructions":"How strong is your need to leave this situation?",
-          "id":"slider_4",
+          "id":"vas-slider_4",
           "datatype":"integer",
           "left":"Not at all",
           "right":"Very strong",
@@ -46,7 +46,7 @@
       {
           "questiontype":"slider",
           "instructions":"How tense are you at this moment?",
-          "id":"slider_5",
+          "id":"vas-slider_5",
           "datatype":"integer",
           "left":"Not at all",
           "right":"Very tense",
@@ -56,7 +56,7 @@
       {
           "questiontype":"slider",
           "instructions":"How much are you in control of the situation?",
-          "id":"slider_6",
+          "id":"vas-slider_6",
           "datatype":"integer",
           "left":"Not at all",
           "right":"Very much",
@@ -66,7 +66,7 @@
       {
           "questiontype":"slider",
           "instructions":"How much do you feel stressed out?",
-          "id":"slider_7",
+          "id":"vas-slider_7",
           "datatype":"integer",
           "left":"Not at all",
           "right":"Very much",
@@ -76,7 +76,7 @@
       {
           "questiontype":"slider",
           "instructions":"How strong is your desire to have a familiar person by your side?",
-          "id":"slider_8",
+          "id":"vas-slider_8",
           "datatype":"integer",
           "left":"No desire",
           "right":"Very strong desire",

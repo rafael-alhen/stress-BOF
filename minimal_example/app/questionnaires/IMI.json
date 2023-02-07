@@ -18,75 +18,75 @@
          ],
          "q_text":[
             {
-               "id":"q_1",
+               "id":"IMI_1",
                "text":"I enjoyed this game very much"
             },
             {
-               "id":"q_2",
+               "id":"IMI_2",
                "text":"I think I am pretty good at this game"
             },
             {
-               "id":"q_3",
+               "id":"IMI_3",
                "text":"I put a lot of effort into this game"
             },
             {
-               "id":"q_4",
+               "id":"IMI_4",
                "text":"It was important to me to do well at this game"
             },
             {
-               "id":"q_5",
+               "id":"IMI_5",
                "text":"I felt tense while playing the game"
             },
             {
-               "id":"q_6",
+               "id":"IMI_6",
                "text":"I tried very hard while playing the game"
             },
             {
-               "id":"q_7",
+               "id":"IMI_7",
                "text":"Playing the game was fun"
             },
             {
-               "id":"q_8",
+               "id":"IMI_8",
                "text":"I would describe this game as very interesting"
             },
             {
-               "id":"q_9",
+               "id":"IMI_9",
                "text":"I am satisfied with my performance at this game"
             },
             {
-               "id":"q_10",
+               "id":"IMI_10",
                "text":"I felt pressured while playing the game"
             },
             {
-               "id":"q_11",
+               "id":"IMI_11",
                "text":"I was anxious while playing the game"
             },
             {
-               "id":"q_12",
+               "id":"IMI_12",
                "text":"I didn't try very hard at playing the game"
             },
             {
-               "id":"q_13",
+               "id":"IMI_13",
                "text":"While playing the game, I was thinking about how much I enjoyed it"
             },
             {
-               "id":"q_14",
+               "id":"IMI_14",
                "text":"After playing the game for a while, I felt pretty competent"
             },
             {
-               "id":"q_15",
+               "id":"IMI_15",
                "text":"I was very relaxed while playing the game"
             },
             {
-               "id":"q_16",
+               "id":"IMI_16",
                "text":"I am pretty skilled at the game"
             },
             {
-               "id":"q_17",
+               "id":"IMI_17",
                "text":"This game did not hold my attention"
             },
             {
-               "id":"q_18",
+               "id":"IMI_18",
                "text":"I couldn't play this game very well"
             }
          ]

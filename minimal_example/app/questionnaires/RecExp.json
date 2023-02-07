@@ -1,0 +1,85 @@
+{
+   "title":"RecExp",
+   "instructions":"Below area  series of statement about your experience playing Risk of Rain 2, the video game that you just played. Please rate your agreement with each of the following statements.",
+   "questions":[
+      {
+         "questiontype":"radiogrid",
+         "id":"radio_1",
+         "shuffle": "true",
+         "labels":[
+            "Strongly Disagree",
+            "Disagree",
+            "Undecided",
+            "Agree",
+            "Strongly Agree"
+         ],
+         "q_text":[
+            {
+               "id":"RecExp_01",
+               "text":"When I was playing this game, I forget about work."
+            },
+            {
+               "id":"RecExp_02",
+               "text":"I didn't think about work at all when I was playing this game."
+            },
+            {
+               "id":"RecExp_03",
+               "text":"When I was playing this game, I distanced myself from work."
+            },
+            {
+               "id":"RecExp_04",
+               "text":"I got a break from the demands of work when I was playing this game."
+            },
+            {
+               "id":"RecExp_05",
+               "text":"When I was playing this game, I kicked back and relaxed."
+            },
+            {
+               "id":"RecExp_06",
+               "text":"When I was playing this game, I was doing relaxing things."
+            },
+            {
+               "id":"RecExp_07",
+               "text":"I was using the time to relax when I was playing this game."
+            },
+            {
+               "id":"RecExp_08",
+               "text":"I was taking time for leisure when I was playing this game."
+            },
+            {
+               "id":"RecExp_09",
+               "text":"When I was playing this game, I learned new things."
+            },
+            {
+               "id":"RecExp_10",
+               "text":"I sought out intellectual challenges when I was playing this game."
+            },
+            {
+               "id":"RecExp_11",
+               "text":"When I was playing this game, I did things that challenged me."
+            },
+            {
+               "id":"RecExp_12",
+               "text":"I did something to broaden my horizons when I was playing this game."
+            },
+            {
+               "id":"RecExp_13",
+               "text":"When I was playing this game, I felt like I could decide for myself what to do."
+            },
+            {
+               "id":"RecExp_14",
+               "text":"I was deciding my own schedule when I was playing this game."
+            },
+            {
+               "id":"RecExp_15",
+               "text":"When I was playing this game, I determined for myself how I would spend my time."
+            },
+            {
+               "id":"RecExp_16",
+               "text":"I took care of things the way that I wanted them done when I was playing this game."
+            }
+         ]
+      }
+
+   ]
+}
